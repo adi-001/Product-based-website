@@ -17,6 +17,6 @@ class Product(Resource):
 # Create routes
 api.add_resource(Product, '/')
 
-# Running the application
+# Run the application
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80, debug=True)
