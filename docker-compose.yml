@@ -2,7 +2,7 @@ version: '3'
 
 services:
   product-service:
-    build: ./Product
+    build: ./product
     volumes:
       - ./Product:/usr/src/app
     ports:
